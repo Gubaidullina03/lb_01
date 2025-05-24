@@ -84,7 +84,7 @@ try:
     connection.commit()
     print("Таблица 'Staff' успешно создана")
 ```
-Отображение таблицы в pgAdmin
+Отображение таблицы в pgAdmin:
 
 ![пр 7 фото таблиц](https://github.com/user-attachments/assets/2ef724da-2d54-435b-afa3-409a6e904895)
 
@@ -240,7 +240,9 @@ get_hospital_detail(4)
 print("\n")
 ```
 Получаем результат
-(C:\Users\626\Downloads\пр 7 фото таблиц.png)
+
+![пр 7 фото упр 3](https://github.com/user-attachments/assets/e521a6e0-d8c3-4979-a8c7-abc1afe810e0)
+
 
 ## Задание 4. Выполните запрос для получения врачей, специализирующихся на педиатрии.
 ```python

@@ -16,6 +16,8 @@
 ```python
 %pip install psycopg2
 
+```
+
 ## Структура репозитория:
 - `ERD_diagram.png` — ERD диаграмма схемы базы данных.
 - `create_db_and_tables.sql` — SQL скрипт для создания базы данных и таблиц.

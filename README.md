@@ -13,7 +13,7 @@
 
 ## Выполнение задания:
 Для начала работы установим библиотеку psycopg2
-%pip install psycopg2
+## %pip install psycopg2
 
 ## Структура репозитория:
 - `ERD_diagram.png` — ERD диаграмма схемы базы данных.

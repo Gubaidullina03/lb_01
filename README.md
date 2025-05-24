@@ -85,6 +85,7 @@ try:
     print("Таблица 'Staff' успешно создана")
 ```
 Отображение таблицы в pgAdmin
+![пр 7 фото таблиц](https://github.com/user-attachments/assets/2ef724da-2d54-435b-afa3-409a6e904895)
 
 (C:\Users\626\Downloads\пр 7 фото таблиц.png)
 

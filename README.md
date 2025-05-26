@@ -359,7 +359,7 @@ plt.show()
 ## Структура репозитория:
 - `ERD_diagram.png` — ERD диаграмма схемы базы данных.
 - `create_db_and_tables.sql` — SQL скрипт для создания базы данных и таблиц.
-- `Gubaidullina_Alina_Ilshatovna.ipynb` — Jupyter Notebook с выполнением всех заданий.
+- `Gubaidullina_Alina_Ilshatovna_pr7.ipynb` — Jupyter Notebook с выполнением всех заданий.
 
 ## Как запустить:
 1. Установите PostgreSQL и настройте доступ к базе данных.

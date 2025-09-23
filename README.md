@@ -29,7 +29,8 @@
 Какие данные (сообщения) эти методы принимают (TickerRequest) и возвращают (StockUpdate).
 Тип коммуникации (bidirectional streaming RPC).
 
-(C:\Users\626\Downloads\4.png)
+
+<img width="659" height="568" alt="4" src="https://github.com/user-attachments/assets/ca717a6c-e40a-439c-8b1e-11d011f9e58c" />
 
 ## Задачи:
 1. Создание ERD диаграммы для базы данных.

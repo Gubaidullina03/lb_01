@@ -67,6 +67,7 @@ source venv/bin/activate
 pip install grpcio grpcio-tools
 ```
 
+
 <img width="515" height="301" alt="1" src="https://github.com/user-attachments/assets/5670da31-09c6-47ed-909f-e273f5f099e5" />
 
 
@@ -235,6 +236,7 @@ if __name__ == '__main__':
 python server.py
 ```
 
+
 <img width="427" height="222" alt="Screenshot_152" src="https://github.com/user-attachments/assets/279a9d75-7a94-47b5-bf7d-1fca0541fc60" />
 
 Откроем второй терминал, активируем то же виртуальное окружение и запустим клиент:
@@ -242,6 +244,7 @@ python server.py
 ```python
 python client.py
 ```
+
 
 <img width="464" height="252" alt="Screenshot_153" src="https://github.com/user-attachments/assets/dc3caf75-c955-416d-a4a9-54fde20e2de7" />
 

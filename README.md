@@ -82,6 +82,7 @@ pip install grpcio grpcio-tools
 
 
 ## Шаг 2: определение сервиса в .proto файле
+Создаём и заполняем .proto файл:
 
 ```python
 syntax = "proto3";

@@ -64,8 +64,8 @@ sudo apt install python3 python3-pip python3-venv -y
 Затем создадим и активируем виртуальное окружение:
 
 ```python
-mkdir grpc_weather_lab
-cd grpc_weather_lab
+mkdir grpc_fin_lab
+cd grpc_fin_lab
 python3 -m venv venv
 source venv/bin/activate
 ```

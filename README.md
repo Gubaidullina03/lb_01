@@ -177,9 +177,9 @@ class StockTickerServicer(fin_pb2_grpc.StockTickerServicer):
         except Exception as e:
             print(f"Error in stream: {e}")
             raise
-
+# Запуск сервера
 def serve():
-    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10)) # Создаем gRPC сервер с пулом из 10 потоков, который может обрабатывать до 10 клиентов одновременно
     
     fin_pb2_grpc.add_StockTickerServicer_to_server(
         StockTickerServicer(), server

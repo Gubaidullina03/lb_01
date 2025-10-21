@@ -40,7 +40,7 @@
 Тип коммуникации (bidirectional streaming RPC).
 
 
-<img width="931" height="711" alt="Screenshot_274" src="https://github.com/user-attachments/assets/1082e575-0ac2-4ab3-902c-12cf9c2e453e" />
+<img width="818" height="715" alt="Screenshot_276" src="https://github.com/user-attachments/assets/71697b44-4df0-48f2-9eee-e5634dd0db55" />
 
 
 ## Технологический стек (Technology Stack)

@@ -223,7 +223,7 @@ def run():
             def request_generator():
                 tickers = ["AAPL", "GOOGL", "TSLA", "MSFT"]
                 for ticker in tickers:
-                    yield fin_pb2.TickerRequest(ticker_symbol=ticker)
+                    yield fin_pb2.TickerRequest(ticker_symbol=ticker)  # Возвращает очередной запрос без завершения функции
                     time.sleep(3)
             
             # Отправляем запросы и получаем ответы

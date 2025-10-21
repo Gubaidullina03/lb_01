@@ -180,7 +180,9 @@ class StockTickerServicer(fin_pb2_grpc.StockTickerServicer):
 # Запуск сервера
 def serve():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10)) # Создаем gRPC сервер с пулом из 10 потоков, который может обрабатывать до 10 клиентов одновременно
-    
+
+
+    # Регистрируем наш сервис на сервере и связываем реализацию с gRPC обработчиком
     fin_pb2_grpc.add_StockTickerServicer_to_server(
         StockTickerServicer(), server
     )

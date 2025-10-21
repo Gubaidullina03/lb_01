@@ -226,7 +226,7 @@ def run():
                     yield fin_pb2.TickerRequest(ticker_symbol=ticker)  # Возвращает очередной запрос без завершения функции
                     time.sleep(3)
             
-            # Отправляем запросы и получаем ответы
+            # Отправляем запросы и получаем ответы/ вызываем удаленный метод на сервере
             responses = stub.SubscribeToStockUpdates(request_generator())
             
             for response in responses:

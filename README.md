@@ -40,7 +40,8 @@
 Тип коммуникации (bidirectional streaming RPC).
 
 
-<img width="659" height="568" alt="4" src="https://github.com/user-attachments/assets/ca717a6c-e40a-439c-8b1e-11d011f9e58c" />
+<img width="931" height="711" alt="Screenshot_274" src="https://github.com/user-attachments/assets/1082e575-0ac2-4ab3-902c-12cf9c2e453e" />
+
 
 ## Технологический стек (Technology Stack)
 1. Язык определения интерфейсов (IDL): Protocol Buffers (Protobuf)

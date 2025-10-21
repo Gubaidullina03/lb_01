@@ -134,6 +134,7 @@ import random
 import fin_pb2
 import fin_pb2_grpc
 
+# Создаем класс-обработчик, который реализует наш gRPC сервис
 class StockTickerServicer(fin_pb2_grpc.StockTickerServicer):
     def SubscribeToStockUpdates(self, request_iterator, context):
         """Bidirectional streaming RPC"""

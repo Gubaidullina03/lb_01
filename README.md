@@ -213,6 +213,7 @@ import fin_pb2_grpc
 
 def run():
     try:
+        # Подключаемся к серверу на своем компьютере через порт 50051
         with grpc.insecure_channel('localhost:50051') as channel:
             stub = fin_pb2_grpc.StockTickerStub(channel)
             
